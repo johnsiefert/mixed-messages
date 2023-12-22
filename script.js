@@ -41,11 +41,19 @@ let quotes = [
       },
   ];
 
+  function randomInt() {
+    return Math.floor(Math.random() * 8)
+  }
+
+
   function randomQuotes (){
+    let numId = randomInt()
 for(let i = 0; i < quotes.length; i++){
-    let phrase = quotes[i].id
-    // let person = quotes[i].author
-    console.log(phrase)
-    // console.log(person)
+    let phrase = quotes[i]
+    let randomPhrase = {};
+    switch(numId){
+        
+    }
 }
   }
+  randomQuotes ()
